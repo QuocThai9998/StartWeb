@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+  <main>
+    <div class="main">
+            <!--navigation-->
+            <nav id="main-nav">
+                <!--Logo-->
+                <a href="../../index.html" class="logo">
+                    <img src="../../img/Logo1.png">
+                </a>
+                <!-- Menu Button -->
+                <input class="menu-btn" type="checkbox" id="menu-btn"/>
+                <label class="menu-icon" for="menu-btn">
+                    <span class="nav-icon"></span>
+                </label>
+                <!--Navbar-->
+                <ul class="menu">
+                  <li><a href="../../index.html" >Home</a></li>
+                  <li><a href="../action/action.html">Business & Money</a></li>
+                  <li><a href="../classic/classic.html">Computer Science</a></li>
+                  <li><a href="./contact.html" class="activate">Buy Now!</a></li>
+                </ul>
+             </nav>
+            </div>
+            
+            <section id="heading">
+              <div class="container heading-grid">
+                <div class="heading-wrap">
+                  <h1>Contact Us</h1>
+                  <p>Do you need more information? Please contact us to find more about our services</p>
+                </div>
+              </div>
+            </section>
+
+            <section id="form-box">
+              <div class="container">
+                <div class="form-box form-box-grid">
+                  <div class="form-info">
+                    <h3>Contact information</h3>
+                    <ul>
+                      <li><i class="fas fa-map-marker-alt"></i>702 Nguyen Van Linh, District 7</li>
+                      <li><i class="fas fa-mobile-alt"></i>+0772488689</li>
+                      <li><i class="fas fa-envelope"></i>s3957050@student.rmit.edu.au</li>
+                    </ul>
+                  </div>
+            
+                  <div class="form-input">
+                    <h3>Fill in the form below</h3>
+                    <form>
+                        <select id="dropdown">
+                          <option disabled selected value>Contact Purpose</option>
+                          <option>Leave a message</option>
+                          <option>Buy books</option> 
+                         
+                        </select>
+                      <p>
+                        <label for="first_name">Your full name</label>
+                        <input type="text" id="name" placeholder="Full Name..." required>
+                      </p>
+                      <p class="full">
+                        <label for="email">Email address</label>
+                        <input type="email" id="email" placeholder="Email Here..." required>
+                      </p>
+                      <p class="full">
+                        <label for="phone">Phone Number: </label>
+                        <input type="number" id="phone" placeholder="Phone Here..." required>
+                      </p>
+                      <p class="full">
+                        <label>Do you want to receive our weekly newsletter</label>
+                        <br>
+                        <input type="radio" id="yes" name="contact-opt" checked> 
+                        <label for="yes">Yes</label>
+                        <br>
+                        <input type="radio" id="no" name="contact-opt"> 
+                        <label for="no">No</label>
+                      </p>
+                      <p class="full">
+                        <label for="message">Note</label>
+                        <br>
+                        <textarea id="message" required></textarea>
+                      </p>
+                      <p class="full">
+                        <button type="submit">Send Message</button>
+                        <button type="reset">Reset</button>
+                      </p>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </section>
+     <!--footer-->
+    <footer>
+        <nav id="footer-menu">
+          <!--Navbar-->
+          <ul >
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Copyright</a></li>
+            <li><a href="../contact/contact.html">Contact Us</a></li>
+        </ul>
+        </nav>
+    </footer>
+  </main>
+</body>
+</html>
